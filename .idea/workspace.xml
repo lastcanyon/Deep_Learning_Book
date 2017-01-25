@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938c5c05-ce21-4db5-80ec-b784d0b9a943" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_신경망/각 층 신호 전달.py" afterPath="$PROJECT_DIR$/03_신경망/각 층 신호 전달.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_신경망/3층 신경망 구현정리.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,6 +26,7 @@
     <SUITE FILE_PATH="coverage/DeepLearningBook$sigmoid_graph.coverage" NAME="sigmoid_graph Coverage Results" MODIFIED="1485232695596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_신경망" />
     <SUITE FILE_PATH="coverage/DeepLearningBook$___.coverage" NAME="각 층 신호 전달 Coverage Results" MODIFIED="1485324142915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_신경망" />
     <SUITE FILE_PATH="coverage/DeepLearningBook$multiple_matrix.coverage" NAME="multiple_matrix Coverage Results" MODIFIED="1485312430120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_신경망" />
+    <SUITE FILE_PATH="coverage/DeepLearningBook$3__.coverage" NAME="3층 신경망 구현정리 Coverage Results" MODIFIED="1485324797514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_신경망" />
     <SUITE FILE_PATH="coverage/DeepLearningBook$sigmoid_function.coverage" NAME="sigmoid_function Coverage Results" MODIFIED="1485232571655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_신경망" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -95,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="각 층 신호 전달.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="각 층 신호 전달.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_신경망/각 층 신호 전달.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3층 신경망 구현정리.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_신경망/3층 신경망 구현정리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -135,6 +147,7 @@
         <option value="$PROJECT_DIR$/03_신경망/multiple_matrix.py" />
         <option value="$PROJECT_DIR$/03_신경망/신경망내적.py" />
         <option value="$PROJECT_DIR$/03_신경망/각 층 신호 전달.py" />
+        <option value="$PROJECT_DIR$/03_신경망/3층 신경망 구현정리.py" />
       </list>
     </option>
   </component>
@@ -223,25 +236,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.각 층 신호 전달">
-    <configuration default="false" name="ReLU_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_신경망" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeepLearningBook" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_신경망/ReLU_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.3층 신경망 구현정리">
     <configuration default="false" name="n_dim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,6 +305,24 @@
       <module name="DeepLearningBook" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_신경망/각 층 신호 전달.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3층 신경망 구현정리" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_신경망" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearningBook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_신경망/3층 신경망 구현정리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -529,19 +542,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ReLU_function" />
-      <item index="1" class="java.lang.String" itemvalue="Python.n_dim" />
-      <item index="2" class="java.lang.String" itemvalue="Python.multiple_matrix" />
-      <item index="3" class="java.lang.String" itemvalue="Python.신경망내적" />
-      <item index="4" class="java.lang.String" itemvalue="Python.각 층 신호 전달" />
+      <item index="0" class="java.lang.String" itemvalue="Python.n_dim" />
+      <item index="1" class="java.lang.String" itemvalue="Python.multiple_matrix" />
+      <item index="2" class="java.lang.String" itemvalue="Python.신경망내적" />
+      <item index="3" class="java.lang.String" itemvalue="Python.각 층 신호 전달" />
+      <item index="4" class="java.lang.String" itemvalue="Python.3층 신경망 구현정리" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.각 층 신호 전달" />
-        <item index="1" class="java.lang.String" itemvalue="Python.신경망내적" />
-        <item index="2" class="java.lang.String" itemvalue="Python.multiple_matrix" />
-        <item index="3" class="java.lang.String" itemvalue="Python.n_dim" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ReLU_function" />
+        <item index="0" class="java.lang.String" itemvalue="Python.3층 신경망 구현정리" />
+        <item index="1" class="java.lang.String" itemvalue="Python.각 층 신호 전달" />
+        <item index="2" class="java.lang.String" itemvalue="Python.신경망내적" />
+        <item index="3" class="java.lang.String" itemvalue="Python.multiple_matrix" />
+        <item index="4" class="java.lang.String" itemvalue="Python.n_dim" />
       </list>
     </recent_temporary>
   </component>
@@ -857,8 +870,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_신경망/각 층 신호 전달.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_신경망/3층 신경망 구현정리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding />
         </state>
       </provider>
