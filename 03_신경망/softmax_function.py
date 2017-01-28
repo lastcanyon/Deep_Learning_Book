@@ -1,7 +1,9 @@
 import numpy as np
 
 def softmax(a):
-    exp_a = np.exp(a) # 지수 함수
+    c = np.max(a)
+    exp_a = np.exp(a-c) # 오버플로 대책
     sum_exp_a = np.sum(exp_a) # 지수 함수의 합
     y = exp_a / sum_exp_a
     return y
+
