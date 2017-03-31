@@ -18,4 +18,3 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.plot(x, y)
 plt.show()
-
